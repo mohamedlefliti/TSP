@@ -12,6 +12,7 @@ Explore a Python implementation included for practical experimentation, enabling
 Embark on a journey of efficiency and adaptability with our dynamic approach to the Traveling Salesman Problem!
 
 
+![666](https://github.com/user-attachments/assets/8a085241-bbf6-4e05-a926-0d0fede28c07)
 
 خوارزمية ديناميكية لحل مشكلة بائع السفر: نهج عملي وتكيفي
 

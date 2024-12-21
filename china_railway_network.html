@@ -1,0 +1,2367 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e51d8a4a46060461e855295d0f1573f8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-ant-path@1.1.2/dist/leaflet-ant-path.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e51d8a4a46060461e855295d0f1573f8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e51d8a4a46060461e855295d0f1573f8 = L.map(
+                "map_e51d8a4a46060461e855295d0f1573f8",
+                {
+                    center: [35.8617, 104.1954],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6bbf63bf93e3d04d585166ed884e18d5 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6bbf63bf93e3d04d585166ed884e18d5.addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var circle_marker_7bd0af8f2f98283e44aad2af80aabf38 = L.circleMarker(
+                [39.9042, 116.4074],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_9f7be2dd764a8a87902a00285b3024d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0386499f47323452886fa9152128bf34 = $(`<div id="html_0386499f47323452886fa9152128bf34" style="width: 100.0%; height: 100.0%;">Beijing<br>Capacity: 250000</div>`)[0];
+                popup_9f7be2dd764a8a87902a00285b3024d3.setContent(html_0386499f47323452886fa9152128bf34);
+            
+        
+
+        circle_marker_7bd0af8f2f98283e44aad2af80aabf38.bindPopup(popup_9f7be2dd764a8a87902a00285b3024d3)
+        ;
+
+        
+    
+    
+            var circle_marker_a3cecd77a3c81e55bc1fbfb6e1fed5ff = L.circleMarker(
+                [31.2304, 121.4737],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_90d2209289687258a0636b65d11c9432 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa6a1c9f0c490344e0b084018e48a009 = $(`<div id="html_aa6a1c9f0c490344e0b084018e48a009" style="width: 100.0%; height: 100.0%;">Shanghai<br>Capacity: 200000</div>`)[0];
+                popup_90d2209289687258a0636b65d11c9432.setContent(html_aa6a1c9f0c490344e0b084018e48a009);
+            
+        
+
+        circle_marker_a3cecd77a3c81e55bc1fbfb6e1fed5ff.bindPopup(popup_90d2209289687258a0636b65d11c9432)
+        ;
+
+        
+    
+    
+            var circle_marker_fc162d07f10de82912c764853e02e9a6 = L.circleMarker(
+                [23.1291, 113.2644],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_9cd28679d7571574df31e4929298a4cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0bf884fdcc8e5f46314fb592b60a405d = $(`<div id="html_0bf884fdcc8e5f46314fb592b60a405d" style="width: 100.0%; height: 100.0%;">Guangzhou<br>Capacity: 180000</div>`)[0];
+                popup_9cd28679d7571574df31e4929298a4cf.setContent(html_0bf884fdcc8e5f46314fb592b60a405d);
+            
+        
+
+        circle_marker_fc162d07f10de82912c764853e02e9a6.bindPopup(popup_9cd28679d7571574df31e4929298a4cf)
+        ;
+
+        
+    
+    
+            var circle_marker_ef95306b972103ceab5977d20f4396f4 = L.circleMarker(
+                [22.5431, 114.0579],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_9523329102ca406e5cb41bdfd5fa4a4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0187c4de67e6ca805152050db37789f = $(`<div id="html_a0187c4de67e6ca805152050db37789f" style="width: 100.0%; height: 100.0%;">Shenzhen<br>Capacity: 150000</div>`)[0];
+                popup_9523329102ca406e5cb41bdfd5fa4a4d.setContent(html_a0187c4de67e6ca805152050db37789f);
+            
+        
+
+        circle_marker_ef95306b972103ceab5977d20f4396f4.bindPopup(popup_9523329102ca406e5cb41bdfd5fa4a4d)
+        ;
+
+        
+    
+    
+            var circle_marker_a9aa3bf4a1cea483eb3df9577769775b = L.circleMarker(
+                [30.5928, 114.3055],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_e996a807f392daccf6b20a2b5d9a5dd8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4eca9c9cd825880a22588b8df4a21261 = $(`<div id="html_4eca9c9cd825880a22588b8df4a21261" style="width: 100.0%; height: 100.0%;">Wuhan<br>Capacity: 120000</div>`)[0];
+                popup_e996a807f392daccf6b20a2b5d9a5dd8.setContent(html_4eca9c9cd825880a22588b8df4a21261);
+            
+        
+
+        circle_marker_a9aa3bf4a1cea483eb3df9577769775b.bindPopup(popup_e996a807f392daccf6b20a2b5d9a5dd8)
+        ;
+
+        
+    
+    
+            var circle_marker_68292013cdb2b2395bfc0f46f60ca4b3 = L.circleMarker(
+                [30.5728, 104.0668],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_32aaa4466a8dbee5a3ba9e7c1d3487ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ac652d324224fcf34a8e238aa1ba579 = $(`<div id="html_0ac652d324224fcf34a8e238aa1ba579" style="width: 100.0%; height: 100.0%;">Chengdu<br>Capacity: 100000</div>`)[0];
+                popup_32aaa4466a8dbee5a3ba9e7c1d3487ac.setContent(html_0ac652d324224fcf34a8e238aa1ba579);
+            
+        
+
+        circle_marker_68292013cdb2b2395bfc0f46f60ca4b3.bindPopup(popup_32aaa4466a8dbee5a3ba9e7c1d3487ac)
+        ;
+
+        
+    
+    
+            var circle_marker_88c75254709ad3fe79808b7b6d88d7d4 = L.circleMarker(
+                [34.3416, 108.9398],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_60f3c3a151af382eef1e8784fa8d6674 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a68f715217d6bf568d394d9878cc0f5 = $(`<div id="html_3a68f715217d6bf568d394d9878cc0f5" style="width: 100.0%; height: 100.0%;">Xian<br>Capacity: 100000</div>`)[0];
+                popup_60f3c3a151af382eef1e8784fa8d6674.setContent(html_3a68f715217d6bf568d394d9878cc0f5);
+            
+        
+
+        circle_marker_88c75254709ad3fe79808b7b6d88d7d4.bindPopup(popup_60f3c3a151af382eef1e8784fa8d6674)
+        ;
+
+        
+    
+    
+            var circle_marker_b789e462ec5f69028c22971e68bb7988 = L.circleMarker(
+                [32.0603, 118.7969],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_c5f33f220fae279fea6daf85de2ed25e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37583c3cf331181223d9c8f09449f56e = $(`<div id="html_37583c3cf331181223d9c8f09449f56e" style="width: 100.0%; height: 100.0%;">Nanjing<br>Capacity: 80000</div>`)[0];
+                popup_c5f33f220fae279fea6daf85de2ed25e.setContent(html_37583c3cf331181223d9c8f09449f56e);
+            
+        
+
+        circle_marker_b789e462ec5f69028c22971e68bb7988.bindPopup(popup_c5f33f220fae279fea6daf85de2ed25e)
+        ;
+
+        
+    
+    
+            var circle_marker_c3b29b46e40b611e3adebe5ec1533ac6 = L.circleMarker(
+                [30.2741, 120.1551],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_c0ac1ade6619e365ac4e430b250b81ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c0f4cfdc4b15f7ca13ba19496af8c31 = $(`<div id="html_1c0f4cfdc4b15f7ca13ba19496af8c31" style="width: 100.0%; height: 100.0%;">Hangzhou<br>Capacity: 80000</div>`)[0];
+                popup_c0ac1ade6619e365ac4e430b250b81ef.setContent(html_1c0f4cfdc4b15f7ca13ba19496af8c31);
+            
+        
+
+        circle_marker_c3b29b46e40b611e3adebe5ec1533ac6.bindPopup(popup_c0ac1ade6619e365ac4e430b250b81ef)
+        ;
+
+        
+    
+    
+            var circle_marker_f00185cba1f463a52edbfb62adff3aed = L.circleMarker(
+                [39.3434, 117.3616],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_7c33b96e2aec90d2bc447717e6a6ff60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_765dc55c06b343ca780176ea3746c38b = $(`<div id="html_765dc55c06b343ca780176ea3746c38b" style="width: 100.0%; height: 100.0%;">Tianjin<br>Capacity: 100000</div>`)[0];
+                popup_7c33b96e2aec90d2bc447717e6a6ff60.setContent(html_765dc55c06b343ca780176ea3746c38b);
+            
+        
+
+        circle_marker_f00185cba1f463a52edbfb62adff3aed.bindPopup(popup_7c33b96e2aec90d2bc447717e6a6ff60)
+        ;
+
+        
+    
+    
+            var circle_marker_2a5d6d97171e31602d67c41da145db78 = L.circleMarker(
+                [29.563, 106.5516],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_f9df9cf04ffa7197969506e50bd45766 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae4a8cf6ad805874b9ee84a467eb2275 = $(`<div id="html_ae4a8cf6ad805874b9ee84a467eb2275" style="width: 100.0%; height: 100.0%;">Chongqing<br>Capacity: 100000</div>`)[0];
+                popup_f9df9cf04ffa7197969506e50bd45766.setContent(html_ae4a8cf6ad805874b9ee84a467eb2275);
+            
+        
+
+        circle_marker_2a5d6d97171e31602d67c41da145db78.bindPopup(popup_f9df9cf04ffa7197969506e50bd45766)
+        ;
+
+        
+    
+    
+            var circle_marker_35d3a641c16523402daf51971b209e78 = L.circleMarker(
+                [34.7472, 113.6249],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_874a8def611cd890bbeb2f6b09c18078 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91779b5d05d1dd7dbcaa6569d20aa9c1 = $(`<div id="html_91779b5d05d1dd7dbcaa6569d20aa9c1" style="width: 100.0%; height: 100.0%;">Zhengzhou<br>Capacity: 90000</div>`)[0];
+                popup_874a8def611cd890bbeb2f6b09c18078.setContent(html_91779b5d05d1dd7dbcaa6569d20aa9c1);
+            
+        
+
+        circle_marker_35d3a641c16523402daf51971b209e78.bindPopup(popup_874a8def611cd890bbeb2f6b09c18078)
+        ;
+
+        
+    
+    
+            var circle_marker_77fb9150ff63f482183d67b5ba2e6ccc = L.circleMarker(
+                [36.6512, 117.1201],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_755a300a65ea606157fc3660aabd5a96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d01341cb066f7ba80d60997da70da08 = $(`<div id="html_0d01341cb066f7ba80d60997da70da08" style="width: 100.0%; height: 100.0%;">Jinan<br>Capacity: 70000</div>`)[0];
+                popup_755a300a65ea606157fc3660aabd5a96.setContent(html_0d01341cb066f7ba80d60997da70da08);
+            
+        
+
+        circle_marker_77fb9150ff63f482183d67b5ba2e6ccc.bindPopup(popup_755a300a65ea606157fc3660aabd5a96)
+        ;
+
+        
+    
+    
+            var circle_marker_8004fd40b36922e94332de5f442583a3 = L.circleMarker(
+                [36.0671, 120.3826],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_0c21054378bcbe2e58b6e888660a3648 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbcd8e4f016a43134f01201cb323d8af = $(`<div id="html_fbcd8e4f016a43134f01201cb323d8af" style="width: 100.0%; height: 100.0%;">Qingdao<br>Capacity: 60000</div>`)[0];
+                popup_0c21054378bcbe2e58b6e888660a3648.setContent(html_fbcd8e4f016a43134f01201cb323d8af);
+            
+        
+
+        circle_marker_8004fd40b36922e94332de5f442583a3.bindPopup(popup_0c21054378bcbe2e58b6e888660a3648)
+        ;
+
+        
+    
+    
+            var circle_marker_1d46ca05ed4a132a8040cef7d52ff87a = L.circleMarker(
+                [28.2278, 112.9388],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_2ac7d8682f1810d3e7855ed46a37c835 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18a46309f56b8353cc988f3fab210faa = $(`<div id="html_18a46309f56b8353cc988f3fab210faa" style="width: 100.0%; height: 100.0%;">Changsha<br>Capacity: 80000</div>`)[0];
+                popup_2ac7d8682f1810d3e7855ed46a37c835.setContent(html_18a46309f56b8353cc988f3fab210faa);
+            
+        
+
+        circle_marker_1d46ca05ed4a132a8040cef7d52ff87a.bindPopup(popup_2ac7d8682f1810d3e7855ed46a37c835)
+        ;
+
+        
+    
+    
+            var circle_marker_adeb7500217857d5ee2d7105eeaa3d60 = L.circleMarker(
+                [28.682, 115.8579],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_e6e215c91a719a0e902b250ba8368d11 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34081ac4da7d97d1389e187fa6c88ee0 = $(`<div id="html_34081ac4da7d97d1389e187fa6c88ee0" style="width: 100.0%; height: 100.0%;">Nanchang<br>Capacity: 60000</div>`)[0];
+                popup_e6e215c91a719a0e902b250ba8368d11.setContent(html_34081ac4da7d97d1389e187fa6c88ee0);
+            
+        
+
+        circle_marker_adeb7500217857d5ee2d7105eeaa3d60.bindPopup(popup_e6e215c91a719a0e902b250ba8368d11)
+        ;
+
+        
+    
+    
+            var circle_marker_ff1887d5df28c8ce9e4a36373e7aabed = L.circleMarker(
+                [26.0745, 119.2965],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_c21348018d33c367a922d51e9c89595e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1dae510cda2a17648541f1ba25a3d212 = $(`<div id="html_1dae510cda2a17648541f1ba25a3d212" style="width: 100.0%; height: 100.0%;">Fuzhou<br>Capacity: 50000</div>`)[0];
+                popup_c21348018d33c367a922d51e9c89595e.setContent(html_1dae510cda2a17648541f1ba25a3d212);
+            
+        
+
+        circle_marker_ff1887d5df28c8ce9e4a36373e7aabed.bindPopup(popup_c21348018d33c367a922d51e9c89595e)
+        ;
+
+        
+    
+    
+            var circle_marker_7e93ce9d1ddb7becda418ee2d87868eb = L.circleMarker(
+                [31.8206, 117.2272],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_9106af7a5be2524bacb12511f5f66707 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0046a6043b18a77e76328c0ee648f14 = $(`<div id="html_e0046a6043b18a77e76328c0ee648f14" style="width: 100.0%; height: 100.0%;">Hefei<br>Capacity: 70000</div>`)[0];
+                popup_9106af7a5be2524bacb12511f5f66707.setContent(html_e0046a6043b18a77e76328c0ee648f14);
+            
+        
+
+        circle_marker_7e93ce9d1ddb7becda418ee2d87868eb.bindPopup(popup_9106af7a5be2524bacb12511f5f66707)
+        ;
+
+        
+    
+    
+            var circle_marker_4f0d9ca8fda554f3f6ffbaa67b73042f = L.circleMarker(
+                [25.0389, 102.7183],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_8732f077f8224690e772f2405fe9133e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7404ca3a0f8dfd83f83977b9fa549ab0 = $(`<div id="html_7404ca3a0f8dfd83f83977b9fa549ab0" style="width: 100.0%; height: 100.0%;">Kunming<br>Capacity: 50000</div>`)[0];
+                popup_8732f077f8224690e772f2405fe9133e.setContent(html_7404ca3a0f8dfd83f83977b9fa549ab0);
+            
+        
+
+        circle_marker_4f0d9ca8fda554f3f6ffbaa67b73042f.bindPopup(popup_8732f077f8224690e772f2405fe9133e)
+        ;
+
+        
+    
+    
+            var circle_marker_55f838b521e00dd14abe4c26edc73488 = L.circleMarker(
+                [45.8038, 126.534],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_79a440487d36d25eddc06ae0638b45b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0700bbef7c7805ed2ea0c3a0100f5f59 = $(`<div id="html_0700bbef7c7805ed2ea0c3a0100f5f59" style="width: 100.0%; height: 100.0%;">Harbin<br>Capacity: 80000</div>`)[0];
+                popup_79a440487d36d25eddc06ae0638b45b9.setContent(html_0700bbef7c7805ed2ea0c3a0100f5f59);
+            
+        
+
+        circle_marker_55f838b521e00dd14abe4c26edc73488.bindPopup(popup_79a440487d36d25eddc06ae0638b45b9)
+        ;
+
+        
+    
+    
+            var circle_marker_6abdd8ca3b38c4051f72e0c9b53172cb = L.circleMarker(
+                [41.8057, 123.4315],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_d6850edef4c3ca9e68c7161d4430e9c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b6d0747576df6181ea4a4d0e4053167 = $(`<div id="html_9b6d0747576df6181ea4a4d0e4053167" style="width: 100.0%; height: 100.0%;">Shenyang<br>Capacity: 70000</div>`)[0];
+                popup_d6850edef4c3ca9e68c7161d4430e9c4.setContent(html_9b6d0747576df6181ea4a4d0e4053167);
+            
+        
+
+        circle_marker_6abdd8ca3b38c4051f72e0c9b53172cb.bindPopup(popup_d6850edef4c3ca9e68c7161d4430e9c4)
+        ;
+
+        
+    
+    
+            var circle_marker_5be237241b68faee89154814c9401f57 = L.circleMarker(
+                [38.914, 121.6147],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_f1da07f6ecf3bb9fc9f53bb8580e2183 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15c2a5865d9c1ed011a7b6fe3d25fb2e = $(`<div id="html_15c2a5865d9c1ed011a7b6fe3d25fb2e" style="width: 100.0%; height: 100.0%;">Dalian<br>Capacity: 60000</div>`)[0];
+                popup_f1da07f6ecf3bb9fc9f53bb8580e2183.setContent(html_15c2a5865d9c1ed011a7b6fe3d25fb2e);
+            
+        
+
+        circle_marker_5be237241b68faee89154814c9401f57.bindPopup(popup_f1da07f6ecf3bb9fc9f53bb8580e2183)
+        ;
+
+        
+    
+    
+            var circle_marker_76a8809f46448a56fc4962ad95ee3ef8 = L.circleMarker(
+                [24.4798, 118.0819],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_a20439759eeb37e021eb3a90f4d52d40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9de0a62eb3a5a1a5dfcef9ae6c51820 = $(`<div id="html_a9de0a62eb3a5a1a5dfcef9ae6c51820" style="width: 100.0%; height: 100.0%;">Xiamen<br>Capacity: 50000</div>`)[0];
+                popup_a20439759eeb37e021eb3a90f4d52d40.setContent(html_a9de0a62eb3a5a1a5dfcef9ae6c51820);
+            
+        
+
+        circle_marker_76a8809f46448a56fc4962ad95ee3ef8.bindPopup(popup_a20439759eeb37e021eb3a90f4d52d40)
+        ;
+
+        
+    
+    
+            var circle_marker_08870352f024686a4b1eaf9a6fabf9b2 = L.circleMarker(
+                [29.8683, 121.544],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_0a18f4477056a8d3de3d33aa7bbfae7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f60a63a1d266eff75dad3287b020f6d9 = $(`<div id="html_f60a63a1d266eff75dad3287b020f6d9" style="width: 100.0%; height: 100.0%;">Ningbo<br>Capacity: 60000</div>`)[0];
+                popup_0a18f4477056a8d3de3d33aa7bbfae7a.setContent(html_f60a63a1d266eff75dad3287b020f6d9);
+            
+        
+
+        circle_marker_08870352f024686a4b1eaf9a6fabf9b2.bindPopup(popup_0a18f4477056a8d3de3d33aa7bbfae7a)
+        ;
+
+        
+    
+    
+            var circle_marker_71c420266d95c784898f3362126d0ca3 = L.circleMarker(
+                [31.299, 120.5853],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_afdcc8b3572f9ff017ff18cf6cc0fe87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87c85a7aa6b78ffc8414bc748a05de38 = $(`<div id="html_87c85a7aa6b78ffc8414bc748a05de38" style="width: 100.0%; height: 100.0%;">Suzhou<br>Capacity: 70000</div>`)[0];
+                popup_afdcc8b3572f9ff017ff18cf6cc0fe87.setContent(html_87c85a7aa6b78ffc8414bc748a05de38);
+            
+        
+
+        circle_marker_71c420266d95c784898f3362126d0ca3.bindPopup(popup_afdcc8b3572f9ff017ff18cf6cc0fe87)
+        ;
+
+        
+    
+    
+            var circle_marker_b5d72fac3ce7024232a8f689f3b3e6ae = L.circleMarker(
+                [27.9994, 120.6668],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_4261eab6f39ebb10761a17a1bc1f464e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d39c90800b713eeea0de3a300561117 = $(`<div id="html_2d39c90800b713eeea0de3a300561117" style="width: 100.0%; height: 100.0%;">Wenzhou<br>Capacity: 50000</div>`)[0];
+                popup_4261eab6f39ebb10761a17a1bc1f464e.setContent(html_2d39c90800b713eeea0de3a300561117);
+            
+        
+
+        circle_marker_b5d72fac3ce7024232a8f689f3b3e6ae.bindPopup(popup_4261eab6f39ebb10761a17a1bc1f464e)
+        ;
+
+        
+    
+    
+            var circle_marker_b014f59c58b2bca0e0d11ac64fdef799 = L.circleMarker(
+                [26.647, 106.6302],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_d54251a62e244fa4b079efec0260bd09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59c85dfe11cf8b11d44f916959b2bc8e = $(`<div id="html_59c85dfe11cf8b11d44f916959b2bc8e" style="width: 100.0%; height: 100.0%;">Guiyang<br>Capacity: 50000</div>`)[0];
+                popup_d54251a62e244fa4b079efec0260bd09.setContent(html_59c85dfe11cf8b11d44f916959b2bc8e);
+            
+        
+
+        circle_marker_b014f59c58b2bca0e0d11ac64fdef799.bindPopup(popup_d54251a62e244fa4b079efec0260bd09)
+        ;
+
+        
+    
+    
+            var circle_marker_a7d0e835195b9179c4b5a0e6833539f9 = L.circleMarker(
+                [22.817, 108.3665],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_aa15097689c579613699dfe3b50af0ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8f9dfbcd810ce21f1138a5944a06f14 = $(`<div id="html_c8f9dfbcd810ce21f1138a5944a06f14" style="width: 100.0%; height: 100.0%;">Nanning<br>Capacity: 50000</div>`)[0];
+                popup_aa15097689c579613699dfe3b50af0ea.setContent(html_c8f9dfbcd810ce21f1138a5944a06f14);
+            
+        
+
+        circle_marker_a7d0e835195b9179c4b5a0e6833539f9.bindPopup(popup_aa15097689c579613699dfe3b50af0ea)
+        ;
+
+        
+    
+    
+            var circle_marker_bad2631e30d6cd76db9818d29a9220bd = L.circleMarker(
+                [36.0611, 103.8343],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_8a073c00b83846cf425a100a4df50641 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55dbfce5fdbe51465f456164b8aaddab = $(`<div id="html_55dbfce5fdbe51465f456164b8aaddab" style="width: 100.0%; height: 100.0%;">Lanzhou<br>Capacity: 50000</div>`)[0];
+                popup_8a073c00b83846cf425a100a4df50641.setContent(html_55dbfce5fdbe51465f456164b8aaddab);
+            
+        
+
+        circle_marker_bad2631e30d6cd76db9818d29a9220bd.bindPopup(popup_8a073c00b83846cf425a100a4df50641)
+        ;
+
+        
+    
+    
+            var circle_marker_e93d5b4a252d3e8de47af87130dd67e9 = L.circleMarker(
+                [43.8256, 87.6168],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_3d44e8ec207b28569a804169a09ac4c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d51f3512f1118e73cb29284e0dbb5770 = $(`<div id="html_d51f3512f1118e73cb29284e0dbb5770" style="width: 100.0%; height: 100.0%;">Urumqi<br>Capacity: 50000</div>`)[0];
+                popup_3d44e8ec207b28569a804169a09ac4c2.setContent(html_d51f3512f1118e73cb29284e0dbb5770);
+            
+        
+
+        circle_marker_e93d5b4a252d3e8de47af87130dd67e9.bindPopup(popup_3d44e8ec207b28569a804169a09ac4c2)
+        ;
+
+        
+    
+    
+            var poly_line_2f62633e50dde7d44d1fea4463677c0a = L.polyline(
+                [[39.9042, 116.4074], [39.3434, 117.3616]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_fa1a18140169f2341e4afbf679dcc000 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b27c386f364e018f0faea97fb015356 = $(`<div id="html_3b27c386f364e018f0faea97fb015356" style="width: 100.0%; height: 100.0%;">                 Beijing → Tianjin                 Distance: 102.8 km                 Speed: 350 km/h                 Time: 0.3 hours                 </div>`)[0];
+                popup_fa1a18140169f2341e4afbf679dcc000.setContent(html_3b27c386f364e018f0faea97fb015356);
+            
+        
+
+        poly_line_2f62633e50dde7d44d1fea4463677c0a.bindPopup(popup_fa1a18140169f2341e4afbf679dcc000)
+        ;
+
+        
+    
+    
+            ant_path_208125bbf8b13d6723d523b182caf0dc = L.polyline.antPath(
+              [[39.9042, 116.4074], [39.3434, 117.3616]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_b62eaed82e19948e23d732dfa1b5453d = L.polyline(
+                [[39.3434, 117.3616], [36.6512, 117.1201]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_e42ce8f6b9051c3e0c18241ca4a0ee07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a381bd797374fedd5c10a185239a5f00 = $(`<div id="html_a381bd797374fedd5c10a185239a5f00" style="width: 100.0%; height: 100.0%;">                 Tianjin → Jinan                 Distance: 300.1 km                 Speed: 300 km/h                 Time: 1.0 hours                 </div>`)[0];
+                popup_e42ce8f6b9051c3e0c18241ca4a0ee07.setContent(html_a381bd797374fedd5c10a185239a5f00);
+            
+        
+
+        poly_line_b62eaed82e19948e23d732dfa1b5453d.bindPopup(popup_e42ce8f6b9051c3e0c18241ca4a0ee07)
+        ;
+
+        
+    
+    
+            ant_path_f395f1ed39126c5bceb578f1bd86bfae = L.polyline.antPath(
+              [[39.3434, 117.3616], [36.6512, 117.1201]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_ab64db074fcd47c42e6f317496cc5a5c = L.polyline(
+                [[36.6512, 117.1201], [36.0671, 120.3826]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_ce5063be884c645df36a90a19e5b59c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12c8ebc6f73bbefc7c01036bbcf06024 = $(`<div id="html_12c8ebc6f73bbefc7c01036bbcf06024" style="width: 100.0%; height: 100.0%;">                 Jinan → Qingdao                 Distance: 299.3 km                 Speed: 350 km/h                 Time: 0.9 hours                 </div>`)[0];
+                popup_ce5063be884c645df36a90a19e5b59c9.setContent(html_12c8ebc6f73bbefc7c01036bbcf06024);
+            
+        
+
+        poly_line_ab64db074fcd47c42e6f317496cc5a5c.bindPopup(popup_ce5063be884c645df36a90a19e5b59c9)
+        ;
+
+        
+    
+    
+            ant_path_2e0e0b16702a19606ae06c9732b409fa = L.polyline.antPath(
+              [[36.6512, 117.1201], [36.0671, 120.3826]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_941e08077d6608c9b5da5f1e6b467c56 = L.polyline(
+                [[36.0671, 120.3826], [38.914, 121.6147]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_442eb43c7ee38333012c6b5f20b30e29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_578400f461210dbcb269a7231ae62ff9 = $(`<div id="html_578400f461210dbcb269a7231ae62ff9" style="width: 100.0%; height: 100.0%;">                 Qingdao → Dalian                 Distance: 334.7 km                 Speed: 300 km/h                 Time: 1.1 hours                 </div>`)[0];
+                popup_442eb43c7ee38333012c6b5f20b30e29.setContent(html_578400f461210dbcb269a7231ae62ff9);
+            
+        
+
+        poly_line_941e08077d6608c9b5da5f1e6b467c56.bindPopup(popup_442eb43c7ee38333012c6b5f20b30e29)
+        ;
+
+        
+    
+    
+            ant_path_c02f50786acddc70a3cfa61631187651 = L.polyline.antPath(
+              [[36.0671, 120.3826], [38.914, 121.6147]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_c52eca75ac35759dea75751232b16ed4 = L.polyline(
+                [[38.914, 121.6147], [41.8057, 123.4315]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_97c52a7d35ef96e77011580577f9de35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f595429dbc709a013268eb063e8535ce = $(`<div id="html_f595429dbc709a013268eb063e8535ce" style="width: 100.0%; height: 100.0%;">                 Dalian → Shenyang                 Distance: 356.5 km                 Speed: 300 km/h                 Time: 1.2 hours                 </div>`)[0];
+                popup_97c52a7d35ef96e77011580577f9de35.setContent(html_f595429dbc709a013268eb063e8535ce);
+            
+        
+
+        poly_line_c52eca75ac35759dea75751232b16ed4.bindPopup(popup_97c52a7d35ef96e77011580577f9de35)
+        ;
+
+        
+    
+    
+            ant_path_ec0495452e4a050c906c458980c6d462 = L.polyline.antPath(
+              [[38.914, 121.6147], [41.8057, 123.4315]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_bfa7b2bec6f57bcdba6449b64472b0ee = L.polyline(
+                [[41.8057, 123.4315], [45.8038, 126.534]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_14ede61abd762aaa52d0384becdc5800 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed3d18755c3008d174b3c187816e4d20 = $(`<div id="html_ed3d18755c3008d174b3c187816e4d20" style="width: 100.0%; height: 100.0%;">                 Shenyang → Harbin                 Distance: 509.4 km                 Speed: 300 km/h                 Time: 1.7 hours                 </div>`)[0];
+                popup_14ede61abd762aaa52d0384becdc5800.setContent(html_ed3d18755c3008d174b3c187816e4d20);
+            
+        
+
+        poly_line_bfa7b2bec6f57bcdba6449b64472b0ee.bindPopup(popup_14ede61abd762aaa52d0384becdc5800)
+        ;
+
+        
+    
+    
+            ant_path_87e5d23d7311b208522e20f2028a3160 = L.polyline.antPath(
+              [[41.8057, 123.4315], [45.8038, 126.534]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_598839b497e7914e30abd248119e52cf = L.polyline(
+                [[45.8038, 126.534], [34.7472, 113.6249]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_ceaf78f45d5cb34013bae214a32f7e8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b01e36bd58f98371a1de7a54f5d11a97 = $(`<div id="html_b01e36bd58f98371a1de7a54f5d11a97" style="width: 100.0%; height: 100.0%;">                 Harbin → Zhengzhou                 Distance: 1642.2 km                 Speed: 300 km/h                 Time: 5.5 hours                 </div>`)[0];
+                popup_ceaf78f45d5cb34013bae214a32f7e8b.setContent(html_b01e36bd58f98371a1de7a54f5d11a97);
+            
+        
+
+        poly_line_598839b497e7914e30abd248119e52cf.bindPopup(popup_ceaf78f45d5cb34013bae214a32f7e8b)
+        ;
+
+        
+    
+    
+            ant_path_405b0dfc94f9aa6cfaddf5e4d2655598 = L.polyline.antPath(
+              [[45.8038, 126.534], [34.7472, 113.6249]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_a59c190cd951f901d29f969638f5fcdd = L.polyline(
+                [[34.7472, 113.6249], [34.3416, 108.9398]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_c3070212d86701333e92b3d99bd5ceb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95f92c85363c66f721afead0652b5564 = $(`<div id="html_95f92c85363c66f721afead0652b5564" style="width: 100.0%; height: 100.0%;">                 Zhengzhou → Xian                 Distance: 431.4 km                 Speed: 300 km/h                 Time: 1.4 hours                 </div>`)[0];
+                popup_c3070212d86701333e92b3d99bd5ceb8.setContent(html_95f92c85363c66f721afead0652b5564);
+            
+        
+
+        poly_line_a59c190cd951f901d29f969638f5fcdd.bindPopup(popup_c3070212d86701333e92b3d99bd5ceb8)
+        ;
+
+        
+    
+    
+            ant_path_7729cccb32b21f25cfc82aec2e95c421 = L.polyline.antPath(
+              [[34.7472, 113.6249], [34.3416, 108.9398]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_0ef4c06d4fb90b97d2079f92f0dcbacb = L.polyline(
+                [[34.3416, 108.9398], [36.0611, 103.8343]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_a210dc3df57a2a97156e6c7a166922a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9eab95ac06db231c0e54398c7e984440 = $(`<div id="html_9eab95ac06db231c0e54398c7e984440" style="width: 100.0%; height: 100.0%;">                 Xian → Lanzhou                 Distance: 501.7 km                 Speed: 300 km/h                 Time: 1.7 hours                 </div>`)[0];
+                popup_a210dc3df57a2a97156e6c7a166922a2.setContent(html_9eab95ac06db231c0e54398c7e984440);
+            
+        
+
+        poly_line_0ef4c06d4fb90b97d2079f92f0dcbacb.bindPopup(popup_a210dc3df57a2a97156e6c7a166922a2)
+        ;
+
+        
+    
+    
+            ant_path_acdb4c568b72eb796e54a3b271b4d49d = L.polyline.antPath(
+              [[34.3416, 108.9398], [36.0611, 103.8343]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_a19af9e42816cec5761ff30c436f2572 = L.polyline(
+                [[36.0611, 103.8343], [30.5728, 104.0668]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_3bb612253ed8f0967e076682e55306e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f95f799d110dbb7b399227a029bfd21 = $(`<div id="html_0f95f799d110dbb7b399227a029bfd21" style="width: 100.0%; height: 100.0%;">                 Lanzhou → Chengdu                 Distance: 610.7 km                 Speed: 300 km/h                 Time: 2.0 hours                 </div>`)[0];
+                popup_3bb612253ed8f0967e076682e55306e8.setContent(html_0f95f799d110dbb7b399227a029bfd21);
+            
+        
+
+        poly_line_a19af9e42816cec5761ff30c436f2572.bindPopup(popup_3bb612253ed8f0967e076682e55306e8)
+        ;
+
+        
+    
+    
+            ant_path_e0521be73323e97c22c512d6abc8f03b = L.polyline.antPath(
+              [[36.0611, 103.8343], [30.5728, 104.0668]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_8087f81008ffccc77199336e362e2a8a = L.polyline(
+                [[30.5728, 104.0668], [29.563, 106.5516]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_7520a8060728090827ea1bbd9e2dfb5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76d03a068b3ea8535fc41567b0d8bf76 = $(`<div id="html_76d03a068b3ea8535fc41567b0d8bf76" style="width: 100.0%; height: 100.0%;">                 Chengdu → Chongqing                 Distance: 264.2 km                 Speed: 300 km/h                 Time: 0.9 hours                 </div>`)[0];
+                popup_7520a8060728090827ea1bbd9e2dfb5d.setContent(html_76d03a068b3ea8535fc41567b0d8bf76);
+            
+        
+
+        poly_line_8087f81008ffccc77199336e362e2a8a.bindPopup(popup_7520a8060728090827ea1bbd9e2dfb5d)
+        ;
+
+        
+    
+    
+            ant_path_0ea7c7122a760233be12b5b25b53b363 = L.polyline.antPath(
+              [[30.5728, 104.0668], [29.563, 106.5516]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_a336fe9fd4e0161afee14beb7799cc89 = L.polyline(
+                [[29.563, 106.5516], [26.647, 106.6302]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_47d96b988df5562e2b7d22ecf4ff4189 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90aabc18d8b0a3d6e75bab32856766f5 = $(`<div id="html_90aabc18d8b0a3d6e75bab32856766f5" style="width: 100.0%; height: 100.0%;">                 Chongqing → Guiyang                 Distance: 324.3 km                 Speed: 300 km/h                 Time: 1.1 hours                 </div>`)[0];
+                popup_47d96b988df5562e2b7d22ecf4ff4189.setContent(html_90aabc18d8b0a3d6e75bab32856766f5);
+            
+        
+
+        poly_line_a336fe9fd4e0161afee14beb7799cc89.bindPopup(popup_47d96b988df5562e2b7d22ecf4ff4189)
+        ;
+
+        
+    
+    
+            ant_path_3f54adc36c7ced185472bfab752ef1e4 = L.polyline.antPath(
+              [[29.563, 106.5516], [26.647, 106.6302]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_67385e94451d32b1292137aab76ea66e = L.polyline(
+                [[26.647, 106.6302], [28.2278, 112.9388]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_7b2a04081fbc05f3ee7f5e94215437ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8dbef6ec9771d8a846ba64c4e2d90362 = $(`<div id="html_8dbef6ec9771d8a846ba64c4e2d90362" style="width: 100.0%; height: 100.0%;">                 Guiyang → Changsha                 Distance: 646.8 km                 Speed: 300 km/h                 Time: 2.2 hours                 </div>`)[0];
+                popup_7b2a04081fbc05f3ee7f5e94215437ff.setContent(html_8dbef6ec9771d8a846ba64c4e2d90362);
+            
+        
+
+        poly_line_67385e94451d32b1292137aab76ea66e.bindPopup(popup_7b2a04081fbc05f3ee7f5e94215437ff)
+        ;
+
+        
+    
+    
+            ant_path_a5d698d28d0f8404a2ae6830cb122a76 = L.polyline.antPath(
+              [[26.647, 106.6302], [28.2278, 112.9388]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_5bda0c6e672436410470aaf6a67bd2a8 = L.polyline(
+                [[28.2278, 112.9388], [30.5928, 114.3055]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_8d35e88940142fe9d4f8947877903fb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da2e042ccdd616c9b08a1afbc0332d10 = $(`<div id="html_da2e042ccdd616c9b08a1afbc0332d10" style="width: 100.0%; height: 100.0%;">                 Changsha → Wuhan                 Distance: 294.4 km                 Speed: 350 km/h                 Time: 0.8 hours                 </div>`)[0];
+                popup_8d35e88940142fe9d4f8947877903fb4.setContent(html_da2e042ccdd616c9b08a1afbc0332d10);
+            
+        
+
+        poly_line_5bda0c6e672436410470aaf6a67bd2a8.bindPopup(popup_8d35e88940142fe9d4f8947877903fb4)
+        ;
+
+        
+    
+    
+            ant_path_ed5eb2c1004eb3c19da708cd279c7b27 = L.polyline.antPath(
+              [[28.2278, 112.9388], [30.5928, 114.3055]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_b3eec863e8fc18e72f4ace1e0f88418a = L.polyline(
+                [[30.5928, 114.3055], [31.8206, 117.2272]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_d27108117b87ccd47c9af396ccce2171 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f7f8b2f40a01e65d29b4b76b5a0f849 = $(`<div id="html_0f7f8b2f40a01e65d29b4b76b5a0f849" style="width: 100.0%; height: 100.0%;">                 Wuhan → Hefei                 Distance: 309.6 km                 Speed: 300 km/h                 Time: 1.0 hours                 </div>`)[0];
+                popup_d27108117b87ccd47c9af396ccce2171.setContent(html_0f7f8b2f40a01e65d29b4b76b5a0f849);
+            
+        
+
+        poly_line_b3eec863e8fc18e72f4ace1e0f88418a.bindPopup(popup_d27108117b87ccd47c9af396ccce2171)
+        ;
+
+        
+    
+    
+            ant_path_9c8772902579e42210fd8a8feba23a2e = L.polyline.antPath(
+              [[30.5928, 114.3055], [31.8206, 117.2272]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_af6821e0d53ab83142d975dda370e235 = L.polyline(
+                [[31.8206, 117.2272], [32.0603, 118.7969]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_d05df9a39fc68ee4d7ef09f2bc8d55c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6eb104490d77451f1a22c77d1a80c18f = $(`<div id="html_6eb104490d77451f1a22c77d1a80c18f" style="width: 100.0%; height: 100.0%;">                 Hefei → Nanjing                 Distance: 150.5 km                 Speed: 300 km/h                 Time: 0.5 hours                 </div>`)[0];
+                popup_d05df9a39fc68ee4d7ef09f2bc8d55c9.setContent(html_6eb104490d77451f1a22c77d1a80c18f);
+            
+        
+
+        poly_line_af6821e0d53ab83142d975dda370e235.bindPopup(popup_d05df9a39fc68ee4d7ef09f2bc8d55c9)
+        ;
+
+        
+    
+    
+            ant_path_67dd679dc41f1ab98aff14f530e58216 = L.polyline.antPath(
+              [[31.8206, 117.2272], [32.0603, 118.7969]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_14f312ae74aedcd7f6505d2c51c87d36 = L.polyline(
+                [[32.0603, 118.7969], [31.299, 120.5853]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_0945244206b39dbb3976382af010f6ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0657837b32ff427ef89fc72b461fa02 = $(`<div id="html_b0657837b32ff427ef89fc72b461fa02" style="width: 100.0%; height: 100.0%;">                 Nanjing → Suzhou                 Distance: 189.2 km                 Speed: 300 km/h                 Time: 0.6 hours                 </div>`)[0];
+                popup_0945244206b39dbb3976382af010f6ae.setContent(html_b0657837b32ff427ef89fc72b461fa02);
+            
+        
+
+        poly_line_14f312ae74aedcd7f6505d2c51c87d36.bindPopup(popup_0945244206b39dbb3976382af010f6ae)
+        ;
+
+        
+    
+    
+            ant_path_d6f3e3ce428b99b86e58a413fefd2529 = L.polyline.antPath(
+              [[32.0603, 118.7969], [31.299, 120.5853]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_44ed1fb085e66862fda6e93dc20dc713 = L.polyline(
+                [[31.299, 120.5853], [31.2304, 121.4737]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_e6fc0b5f5382e74420985ad0721ce90b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7107e35ec10b2fa98834f29e5d8f897 = $(`<div id="html_a7107e35ec10b2fa98834f29e5d8f897" style="width: 100.0%; height: 100.0%;">                 Suzhou → Shanghai                 Distance: 84.8 km                 Speed: 350 km/h                 Time: 0.2 hours                 </div>`)[0];
+                popup_e6fc0b5f5382e74420985ad0721ce90b.setContent(html_a7107e35ec10b2fa98834f29e5d8f897);
+            
+        
+
+        poly_line_44ed1fb085e66862fda6e93dc20dc713.bindPopup(popup_e6fc0b5f5382e74420985ad0721ce90b)
+        ;
+
+        
+    
+    
+            ant_path_6c9955771c8aa8ca752e7d312f3d5559 = L.polyline.antPath(
+              [[31.299, 120.5853], [31.2304, 121.4737]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_730c1966b46517dadbfc4bec1a2cbb4b = L.polyline(
+                [[31.2304, 121.4737], [30.2741, 120.1551]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_e99453692938709a41feb49c911e7548 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2df7ad3756965d33de0192569f8ee093 = $(`<div id="html_2df7ad3756965d33de0192569f8ee093" style="width: 100.0%; height: 100.0%;">                 Shanghai → Hangzhou                 Distance: 164.9 km                 Speed: 350 km/h                 Time: 0.5 hours                 </div>`)[0];
+                popup_e99453692938709a41feb49c911e7548.setContent(html_2df7ad3756965d33de0192569f8ee093);
+            
+        
+
+        poly_line_730c1966b46517dadbfc4bec1a2cbb4b.bindPopup(popup_e99453692938709a41feb49c911e7548)
+        ;
+
+        
+    
+    
+            ant_path_5e465b40cd40b85bf9ccae95e8fde109 = L.polyline.antPath(
+              [[31.2304, 121.4737], [30.2741, 120.1551]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_cd7ce60c2d984d2a904234284de2fa24 = L.polyline(
+                [[30.2741, 120.1551], [29.8683, 121.544]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_708563ab82acd7a82d1c2e7510c76f97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46b43ca6361a6f4a1e78adca17fb733c = $(`<div id="html_46b43ca6361a6f4a1e78adca17fb733c" style="width: 100.0%; height: 100.0%;">                 Hangzhou → Ningbo                 Distance: 141.1 km                 Speed: 300 km/h                 Time: 0.5 hours                 </div>`)[0];
+                popup_708563ab82acd7a82d1c2e7510c76f97.setContent(html_46b43ca6361a6f4a1e78adca17fb733c);
+            
+        
+
+        poly_line_cd7ce60c2d984d2a904234284de2fa24.bindPopup(popup_708563ab82acd7a82d1c2e7510c76f97)
+        ;
+
+        
+    
+    
+            ant_path_77a12138409d1e7fceff27a5dabf9a0b = L.polyline.antPath(
+              [[30.2741, 120.1551], [29.8683, 121.544]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_fc409248639b1dfc038d769b6946dcf8 = L.polyline(
+                [[29.8683, 121.544], [27.9994, 120.6668]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_2b3b33526b38e997218689191ab80435 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23b9f232d0801d056abd238ec799d212 = $(`<div id="html_23b9f232d0801d056abd238ec799d212" style="width: 100.0%; height: 100.0%;">                 Ningbo → Wenzhou                 Distance: 224.7 km                 Speed: 300 km/h                 Time: 0.7 hours                 </div>`)[0];
+                popup_2b3b33526b38e997218689191ab80435.setContent(html_23b9f232d0801d056abd238ec799d212);
+            
+        
+
+        poly_line_fc409248639b1dfc038d769b6946dcf8.bindPopup(popup_2b3b33526b38e997218689191ab80435)
+        ;
+
+        
+    
+    
+            ant_path_3a70d4cdf4d77c89ff9f16a551f1fda1 = L.polyline.antPath(
+              [[29.8683, 121.544], [27.9994, 120.6668]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_bc6c02ac2fd8cf42634c8cda0dead609 = L.polyline(
+                [[27.9994, 120.6668], [26.0745, 119.2965]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_43fd30549943ebbd8d5083ea4d4fbbfd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0847001062ef5aa55972cb288af162f = $(`<div id="html_b0847001062ef5aa55972cb288af162f" style="width: 100.0%; height: 100.0%;">                 Wenzhou → Fuzhou                 Distance: 253.4 km                 Speed: 300 km/h                 Time: 0.8 hours                 </div>`)[0];
+                popup_43fd30549943ebbd8d5083ea4d4fbbfd.setContent(html_b0847001062ef5aa55972cb288af162f);
+            
+        
+
+        poly_line_bc6c02ac2fd8cf42634c8cda0dead609.bindPopup(popup_43fd30549943ebbd8d5083ea4d4fbbfd)
+        ;
+
+        
+    
+    
+            ant_path_c09a33c3065372d8c819e56d91abde76 = L.polyline.antPath(
+              [[27.9994, 120.6668], [26.0745, 119.2965]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_4cc65ea4fb4abf08dcadc45a464fb712 = L.polyline(
+                [[26.0745, 119.2965], [24.4798, 118.0819]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_6d704a89b8268a98d8826d4453f355f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17184a93fd66977856281883f5672f6f = $(`<div id="html_17184a93fd66977856281883f5672f6f" style="width: 100.0%; height: 100.0%;">                 Fuzhou → Xiamen                 Distance: 215.3 km                 Speed: 350 km/h                 Time: 0.6 hours                 </div>`)[0];
+                popup_6d704a89b8268a98d8826d4453f355f9.setContent(html_17184a93fd66977856281883f5672f6f);
+            
+        
+
+        poly_line_4cc65ea4fb4abf08dcadc45a464fb712.bindPopup(popup_6d704a89b8268a98d8826d4453f355f9)
+        ;
+
+        
+    
+    
+            ant_path_276e4653bde469b1063a605ccb8f3bf5 = L.polyline.antPath(
+              [[26.0745, 119.2965], [24.4798, 118.0819]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_f2c28c2a49e1ddb3065c2965e7128532 = L.polyline(
+                [[24.4798, 118.0819], [28.682, 115.8579]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_d38a1ce8506b40c6e1ea183732665d10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d57c89f4689f82cd5a6a8b7a874993bc = $(`<div id="html_d57c89f4689f82cd5a6a8b7a874993bc" style="width: 100.0%; height: 100.0%;">                 Xiamen → Nanchang                 Distance: 516.9 km                 Speed: 300 km/h                 Time: 1.7 hours                 </div>`)[0];
+                popup_d38a1ce8506b40c6e1ea183732665d10.setContent(html_d57c89f4689f82cd5a6a8b7a874993bc);
+            
+        
+
+        poly_line_f2c28c2a49e1ddb3065c2965e7128532.bindPopup(popup_d38a1ce8506b40c6e1ea183732665d10)
+        ;
+
+        
+    
+    
+            ant_path_9c4370c457af9162a0e8b590b82b95ef = L.polyline.antPath(
+              [[24.4798, 118.0819], [28.682, 115.8579]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_692a09ed1c3b29cffbc473c0c9c05ae3 = L.polyline(
+                [[28.682, 115.8579], [23.1291, 113.2644]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_391cb8742a631dfa80b55cd3c204f0d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7819825b15cee16e3961c92f5f44d8e2 = $(`<div id="html_7819825b15cee16e3961c92f5f44d8e2" style="width: 100.0%; height: 100.0%;">                 Nanchang → Guangzhou                 Distance: 669.7 km                 Speed: 300 km/h                 Time: 2.2 hours                 </div>`)[0];
+                popup_391cb8742a631dfa80b55cd3c204f0d4.setContent(html_7819825b15cee16e3961c92f5f44d8e2);
+            
+        
+
+        poly_line_692a09ed1c3b29cffbc473c0c9c05ae3.bindPopup(popup_391cb8742a631dfa80b55cd3c204f0d4)
+        ;
+
+        
+    
+    
+            ant_path_7280c6328fe400fb645d86fed8714d51 = L.polyline.antPath(
+              [[28.682, 115.8579], [23.1291, 113.2644]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_8ae63103174f954aede4cc1a64480bb2 = L.polyline(
+                [[23.1291, 113.2644], [22.5431, 114.0579]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_811ff593f51ad9857a806df37de9284d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5b5b5dc34d79bf9ef844635b37bce30 = $(`<div id="html_b5b5b5dc34d79bf9ef844635b37bce30" style="width: 100.0%; height: 100.0%;">                 Guangzhou → Shenzhen                 Distance: 104.2 km                 Speed: 350 km/h                 Time: 0.3 hours                 </div>`)[0];
+                popup_811ff593f51ad9857a806df37de9284d.setContent(html_b5b5b5dc34d79bf9ef844635b37bce30);
+            
+        
+
+        poly_line_8ae63103174f954aede4cc1a64480bb2.bindPopup(popup_811ff593f51ad9857a806df37de9284d)
+        ;
+
+        
+    
+    
+            ant_path_503d8cb6309e0d096e257082b88d95a6 = L.polyline.antPath(
+              [[23.1291, 113.2644], [22.5431, 114.0579]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_c97e3fe2724602e668e2857c276ddd6a = L.polyline(
+                [[22.5431, 114.0579], [22.817, 108.3665]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_4f0b7263e1942ba33073d093ecdae523 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81c276a8cb18b95419b0ba736b69e486 = $(`<div id="html_81c276a8cb18b95419b0ba736b69e486" style="width: 100.0%; height: 100.0%;">                 Shenzhen → Nanning                 Distance: 584.7 km                 Speed: 300 km/h                 Time: 1.9 hours                 </div>`)[0];
+                popup_4f0b7263e1942ba33073d093ecdae523.setContent(html_81c276a8cb18b95419b0ba736b69e486);
+            
+        
+
+        poly_line_c97e3fe2724602e668e2857c276ddd6a.bindPopup(popup_4f0b7263e1942ba33073d093ecdae523)
+        ;
+
+        
+    
+    
+            ant_path_fbb58114219927b863c4ae2c3880bffb = L.polyline.antPath(
+              [[22.5431, 114.0579], [22.817, 108.3665]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_f5eb77a01855beccf768537b615e761d = L.polyline(
+                [[22.817, 108.3665], [25.0389, 102.7183]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_674f82447fbeb6f9ab21a03b34b10dd8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0a0c5d7e55df5b0d19583da3737fc8d = $(`<div id="html_f0a0c5d7e55df5b0d19583da3737fc8d" style="width: 100.0%; height: 100.0%;">                 Nanning → Kunming                 Distance: 624.9 km                 Speed: 300 km/h                 Time: 2.1 hours                 </div>`)[0];
+                popup_674f82447fbeb6f9ab21a03b34b10dd8.setContent(html_f0a0c5d7e55df5b0d19583da3737fc8d);
+            
+        
+
+        poly_line_f5eb77a01855beccf768537b615e761d.bindPopup(popup_674f82447fbeb6f9ab21a03b34b10dd8)
+        ;
+
+        
+    
+    
+            ant_path_14547596b6b97c466fe353eba49cfb33 = L.polyline.antPath(
+              [[22.817, 108.3665], [25.0389, 102.7183]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_6044c6dbc33bcac962c8efc3c27c43ee = L.polyline(
+                [[25.0389, 102.7183], [43.8256, 87.6168]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_d43dce3d0148c1c5220a15c6a4dddd1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37025b566ab371aa90fb63af7ec78915 = $(`<div id="html_37025b566ab371aa90fb63af7ec78915" style="width: 100.0%; height: 100.0%;">                 Kunming → Urumqi                 Distance: 2497.4 km                 Speed: 300 km/h                 Time: 8.3 hours                 </div>`)[0];
+                popup_d43dce3d0148c1c5220a15c6a4dddd1f.setContent(html_37025b566ab371aa90fb63af7ec78915);
+            
+        
+
+        poly_line_6044c6dbc33bcac962c8efc3c27c43ee.bindPopup(popup_d43dce3d0148c1c5220a15c6a4dddd1f)
+        ;
+
+        
+    
+    
+            ant_path_a74fb34954bbd4643843c2141ba948fc = L.polyline.antPath(
+              [[25.0389, 102.7183], [43.8256, 87.6168]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+            var poly_line_031739630d0b8d0ac3c182aced74e1a9 = L.polyline(
+                [[43.8256, 87.6168], [39.9042, 116.4074]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+    
+        var popup_8b13db64a8f7b40d4a042474cb5d94f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5e6aa13e51d11fa343e7d5c250f1eca = $(`<div id="html_f5e6aa13e51d11fa343e7d5c250f1eca" style="width: 100.0%; height: 100.0%;">                 Urumqi → Beijing                 Distance: 2411.0 km                 Speed: 300 km/h                 Time: 8.0 hours                 </div>`)[0];
+                popup_8b13db64a8f7b40d4a042474cb5d94f9.setContent(html_f5e6aa13e51d11fa343e7d5c250f1eca);
+            
+        
+
+        poly_line_031739630d0b8d0ac3c182aced74e1a9.bindPopup(popup_8b13db64a8f7b40d4a042474cb5d94f9)
+        ;
+
+        
+    
+    
+            ant_path_eb332cb1365f53f52734ad489aea07aa = L.polyline.antPath(
+              [[43.8256, 87.6168], [39.9042, 116.4074]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 2,
+  "opacity": 0.6,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 400,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_e51d8a4a46060461e855295d0f1573f8);
+        
+</script>
+</html>
